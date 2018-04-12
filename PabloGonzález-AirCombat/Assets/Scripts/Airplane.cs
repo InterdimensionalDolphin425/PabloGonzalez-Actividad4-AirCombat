@@ -24,12 +24,12 @@ public class Airplane : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.LeftArrow)) {
 
-			this.transform.Translate (-0.4f, 0.0f, 0.0f);
+			this.transform.Translate (-0.6f, 0.0f, 0.0f);
 		}
 
 		if (Input.GetKey (KeyCode.RightArrow)) {
 
-			this.transform.Translate (0.4f, 0.0f, 0.0f);
+			this.transform.Translate (0.6f, 0.0f, 0.0f);
 		}
 
 
